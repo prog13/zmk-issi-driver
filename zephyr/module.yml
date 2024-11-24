@@ -1,0 +1,7 @@
+name: zmk-issi-driver
+build:
+  cmake: ./module/drivers/led_strip
+  kconfig: ./module/drivers/led_strip/Kconfig
+  settings:
+    dts_root: .
+    board_root: .
